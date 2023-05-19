@@ -44,6 +44,8 @@ const unsigned int PIN_TRIGGER = 5;
 const unsigned int PIN_ECHO = 18;
 //BAUD_RATE indica la velocidad de comunicación en baudios
 const unsigned int BAUD_RATE = 115200;
+//Limite máximo en centimetros de detección
+const int DISTANCIA_MAX = 100;
 //Limite inferior en cm de deteccion del sensor ultrasonico
 long limiteInferior = 10;
 //Limite superior en cm de deteccion del sensor ultrasonico
